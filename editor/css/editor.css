@@ -188,6 +188,7 @@ input[type="color"] {
 .quando-inventor-collection { background: hsl(274, 50%, 90%); }
 .quando-inventor-picker { background: hsl(80, 50%, 90%); }
 .quando-eeg { color: white; background: #f75a00; }
+.quando-mlvision { background: #dd1d53; }
 .quando-inventor { background: #3c0272; }
 
 .quando-right>.quando-row.quando-inventor-control:first-child,
