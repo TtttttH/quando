@@ -7,6 +7,7 @@
     let self = quando.image = {}
     self.current = false
     
+    //todo
     function _get_image(display) {
         let def = document.getElementById('quando_image')
         let dis = document.getElementById('quando_image_display')

@@ -148,3 +148,33 @@ body {
     opacity: 1;
 }
 
+#enableCam {
+    padding: 20px;
+    float: left;
+    margin: 50px 3px 5px 10px;
+}
+
+.quando_ml_button {
+    font-weight: normal;
+    /*background-color: rgba(224, 119, 0, 0.7);*/
+    transition: opacity 1.0s linear;
+    background-color: rgb(224, 119, 0);
+    opacity: 0.7;
+}
+
+#ml_webcam {
+    display: block;
+    clear: both;
+    margin: '10px';
+    width: '640px';
+    height: '480px';
+
+}
+
+.removed {
+    display: none;
+}
+
+#quando_ml_status {
+    background-color: rgb(224, 119, 0);
+}

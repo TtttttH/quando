@@ -61,6 +61,8 @@ self.play_audio = (audio_in, loop = false, channel = 0, volume=100) => {
     }
 }
 
+
+//todo
 self.clear_video = () => {
     let video = document.getElementById('quando_video')
     video.src = ''

@@ -50,7 +50,13 @@
         <div id='quando_title'></div>
         <div id="quando_3d"></div>
         <div id="quando_AR"></div>
-        <div id="quando_mlvision"></div>
+        <div id="quando_mlvision">
+            <p id="quando_ml_status">Awaiting TF.js load</p>
+            <video id="ml_webcam" autoplay muted></video></br>
+            <button class="quando_ml_button" id="ml_enableCam">Enable Camera</button>
+            <button class="quando_ml_button" id="ml_train">Train / Predict</button>
+            <button class="quando_ml_button" id="reset">Reset</button>
+        </div>
         <svg id="quando_image_parent" viewBox="0 0 1 1">
             <img id="quando_image"/>
             <img id="quando_image_display"/>
